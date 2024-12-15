@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(/images/bg-desktop.svg);
+    background-color:hsl(257, 40%, 49%) ;
+    padding: 30px;
+}
+.boo {
+    display: flex;
+    padding-top: 80px;
+    gap: 3rem;
+}   
+.bom {
+    color: white;
+    padding-top: 80px;
+}
+button {
+    border: none;
+    border-radius:80px;
+    padding: 20px;
+    color: black;
+    padding: 10px;
+    background-color:white ;
+    width: 29%;
+}
+.bom p {
+    padding: 10px 0;
+color: gainsboro;
+  font-size: 17px;
+  width: 420px;
+  line-height: 22px;
+}
+.bom h1 {
+    font-size:50px ;
+    font-weight: 300;
+    color: whitesmoke;
+}
